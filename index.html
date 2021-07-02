@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en " dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+        <title>Marks Portfolio Website</title>
+        <link rel="icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="https://i.pinimg.com/originals/7d/8b/67/7d8b67ab601793e5eae8f8fff7cda6bd.png" alt="">
+
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger">
+
+                </span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>  
+                  <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>  
+                  <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>  
+                  <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>  
+
+                </ul>
+            </nav>
+
+            
+        </header>
+        <!--Intro-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Mark Dsouza</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="images/aboutme-image.jpg" alt="a picture of Mark Dsouza smiling" class="intro__img">
+            
+        </section>
+        <!--My services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Webpages</h3>
+                    <p>I build webpages from the scratch up, involving myself in the design process. Progressively I move on to code them out on an editor, after drafting a visualised design.</p>
+                </div><!--close service-->
+
+                <div class="service">
+                    <h3>Programming</h3>
+                    <p>I am currently implementing my programming understanding into implementable personal projects, that reflect my grasp on the concepts.</p>
+                </div><!--close service-->
+                
+
+            </div><!--close services-->
+            <a href="#work" class="btn">My Work</a>
+
+        </section>
+        <section>
+            <div class="greenbox">
+                Hover on me
+            </div>
+        </section>
+
+        <!--About me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Front-end dev living in Mumbai</p>
+            <div class="about-me__body">
+                <p>I am Mark Dsouza, a front-end dev who is passionate about coding creative website solutions.</p>
+                <p>I am 21 years old, a Bachelors recipient in Computer Science and Engineering and I love Jesus.</p>
+            </div>
+            <img src="images/img7.jpg" alt="Me smiling" class="about-me__img">
+
+
+        </section>   
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            <p class="section__subtitle section__subtitle--work">P.S. You will be redirected to Github</p>
+
+            <div class="portfolio">
+                <!--Portfolio item 01-->
+                <a href="https://github.com/markmelds/weather-extraction-personal-py-project" class="portfolio__item">
+                    <img src="images/weatherextraction.jpg" alt="" class="portfolio__img">
+
+                </a>
+                   <!--Portfolio item 02-->
+                   <a href="https://github.com/markmelds/webscraping-github-dp-image" class="portfolio__item">
+                    <img src="images/webscr.jpg" alt="" class="portfolio__img">
+
+                </a>   <!--Portfolio item 03-->
+                <a href="https://github.com/markmelds/countdown-timer-personal-py-project" class="portfolio__item">
+                    <img src="images/counttimer.jpg" alt="" class="portfolio__img">
+
+                </a>   <!--Portfolio item 04-->
+                <a href="https://github.com/markmelds/renaming-bulk-file-personal-py-project" class="portfolio__item">
+                    <img src="images/rename.jpg" alt="" class="portfolio__img">
+
+                </a>   <!--Portfolio item 05-->
+                <a href="https://github.com/markmelds/password-generator-py-project" class="portfolio__item">
+                    <img src="images/passregen.jpg" alt="" class="portfolio__img">
+
+                </a>   <!--Portfolio item 06-->
+                <a href="https://markmelds.github.io/starbucks-clone/" class="portfolio__item">
+                    <img src="images/starbucks.jpg" alt="" class="portfolio__img">
+
+                </a>  
+            </div>
+        </section>
+        <!--footer-->
+        <footer class="footer">
+            <a href="mailto:markmelds@gmail.com" class="footer__link">
+                markmelds@gmail.com
+            </a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/markmelds"><i class="fab fa-github"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/markmelds/"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/mark.dsouza.904750/"><i class="fab fa-facebook-square"></i></a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
